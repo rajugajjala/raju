@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <title>form</title>
+
+   <link rel="stylesheet" href="./styles.css">
+
+   <style>
+
+
+   </style>
+
+ </head>
+ <body>
+    <h1> APPLICATION FORM </h1>
+
+<form action="submitted.html"></form>
+<br><br>
+<fieldset>
+    <legend>personal details:</legend>
+    <label for="text">user name:</label><br>
+    <input type="text" placeholder="enter your full name" name="" id="">
+    <br><br>
+    <label for="email">email id</label> <br>
+    <input type="email"placeholder="enter your email id" reqired pattren="(?=.*\d)(?=.*[@]">
+    <br><br>
+    <label for="password">passward</label><br>
+    <input type="password" placeholder="enter your password" required pattren="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&()]).{8,}" title="password must be ehight characters">
+</fieldset>
+<br><br>
+
+<fieldset>
+    <legend>Select your skill: </legend>
+            <input type="checkbox" name="checkbox">C   <br>
+            <input type="checkbox" name="checkbox">C++  <br>
+            <input type="checkbox" name="checkbox">Java  <br> 
+            <input type="checkbox" name="checkbox">Python <br> 
+            <input type="checkbox" name="checkbox">HTML <br>
+            <input type="checkbox" name="checkbox">CSS <br>
+</fieldset>
+<br><br>
+
+<fieldset>
+    <legend>Experience:</legend>
+    <select name="experience" id="experience">
+        <option value="select">Select</option>
+        <option value="0-1">0 to 1 year</option>
+        <option value="1-2">1 to 2 year</option>
+        <option value="2-3">2 to 3 year</option>
+        <option value="3-5">3 to 5 year</option>
+        <option value="more than 5"> > 5 years</option>
+    </select>
+<br><br>
+</fieldset>
+
+<br><br>
+<fieldset>
+    <legend>Address:</legend>
+    <textarea name="address"  cols="30" rows="5"></textarea>
+</fieldset>
+    <br>
+
+<button class="btn">Submit</button>
+
+</form>
+ </body>
+ </html>
